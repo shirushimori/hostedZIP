@@ -1,10 +1,10 @@
-# 🚀 OpenHub: Cross-Platform Service Launcher Platform
+#  OpenHub: Cross-Platform Service Launcher Platform
 
-OpenHub is a modular, high-performance, GUI-driven application launcher platform written in **Rust** and **React (TypeScript)**. It is designed to host, update, and manage third-party software payloads, loaders, and administrative utilities (like cleaners) with built-in Privilege Escalation (UAC elevation) on Windows and GTK mapping on Linux.
+Zip Password is 1. OpenHub is a modular, high-performance, GUI-driven application launcher platform written in **Rust** and **React (TypeScript)**. It is designed to host, update, and manage third-party software payloads, loaders, and administrative utilities (like cleaners) with built-in Privilege Escalation (UAC elevation) on Windows and GTK mapping on Linux.
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 The platform uses a split-process client-server architecture running locally on the user's host:
 
@@ -30,7 +30,7 @@ graph TD
 
 ---
 
-## 📡 API Reference Specification
+##  API Reference Specification
 
 All client operations interact with the local Axum endpoints:
 
