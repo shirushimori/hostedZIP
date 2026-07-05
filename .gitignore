@@ -1,0 +1,28 @@
+# Rust
+/OpenHub/target/
+/OpenHub/build/
+**/*.rs.bk
+Cargo.lock
+
+# Node / Frontend
+/OpenHub/src/web_GUI/node_modules/
+/OpenHub/src/web_GUI/dist/
+/OpenHub/src/web_GUI/.svelte-kit/
+/OpenHub/src/web_GUI/build/
+.eslintcache
+.oxlintrc.json
+
+# Large Compiled Binaries / Releases
+/Releases/
+*.zip
+*.exe
+*.dll
+
+# IDEs & System
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.user
+*.userprefs
+*.log
