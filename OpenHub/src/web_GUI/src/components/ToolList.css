@@ -1,0 +1,121 @@
+.tool-panel {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  max-height: calc(100vh - 200px);
+}
+
+.tl-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  background: var(--bg3);
+  border-bottom: 1px solid var(--border);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text2);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: background 0.1s;
+  flex-shrink: 0;
+}
+.tl-header:hover { background: var(--bg4); color: var(--text); }
+
+.tl-count {
+  margin-left: auto;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text3);
+  background: var(--bg4);
+  padding: 1px 7px;
+  border-radius: 10px;
+}
+
+.tl-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  overflow: hidden;
+  transition: max-height 0.25s ease, padding 0.25s ease, opacity 0.2s ease;
+  max-height: 600px;
+  opacity: 1;
+}
+
+.tl-body.collapsed {
+  max-height: 0;
+  padding: 0 10px;
+  opacity: 0;
+}
+
+.tl-search {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 10px;
+  height: 34px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text3);
+  flex-shrink: 0;
+}
+.tl-search:focus-within { border-color: var(--accent); }
+.tl-search input {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--text);
+  font-size: 12px;
+}
+.tl-search input::placeholder { color: var(--text3); }
+
+.tl-items {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+}
+
+.tl-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: transparent;
+  border: 1px solid transparent;
+  transition: background 0.1s, border-color 0.1s;
+  text-align: left;
+}
+.tl-item:hover { background: var(--bg3); }
+.tl-item.active { background: var(--bg3); border-color: var(--accent); }
+
+.tl-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.tl-desc {
+  font-size: 11px;
+  color: var(--text3);
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tl-empty {
+  padding: 20px 10px;
+  color: var(--text3);
+  font-size: 12px;
+  text-align: center;
+}

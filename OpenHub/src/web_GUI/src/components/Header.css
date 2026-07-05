@@ -1,0 +1,114 @@
+.header-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header-banner {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  max-height: 120px;
+  border: 1px solid var(--border);
+  background: var(--bg2);
+}
+
+.header-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  max-height: 120px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.header-logo-img, .header-logo-placeholder {
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.header-logo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  color: var(--text3);
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 4px;
+  min-width: 0;
+}
+
+.header-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.header-version {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--accent);
+  font-family: var(--mono);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  padding: 2px 8px;
+  border-radius: 6px;
+  display: inline-block;
+  width: fit-content;
+}
+
+.header-usertype {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text3);
+  background: var(--bg4);
+  padding: 2px 8px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.header-name {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.4px;
+  line-height: 1.2;
+}
+
+.header-desc {
+  font-size: 14px;
+  color: var(--text2);
+  line-height: 1.4;
+  max-width: 480px;
+}
+
+.header-os {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.header-os-tag {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--bg3);
+  color: var(--text3);
+  border: 1px solid var(--border);
+}

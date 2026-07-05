@@ -1,0 +1,29 @@
+.ctx-menu {
+  position: fixed;
+  min-width: 180px;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  z-index: 3000;
+  padding: 4px;
+  overflow: hidden;
+}
+
+.ctx-item {
+  display: block;
+  width: 100%;
+  padding: 8px 14px;
+  font-size: 13px;
+  color: var(--text2);
+  text-align: left;
+  border-radius: 6px;
+  transition: background 0.08s, color 0.08s;
+}
+.ctx-item:hover { background: var(--bg3); color: var(--text); }
+
+.ctx-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 4px 8px;
+}

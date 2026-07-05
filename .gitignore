@@ -1,0 +1,21 @@
+# Rust / Cargo
+**/target/
+**/build/
+
+# Unity
+**/Library/
+**/Temp/
+**/Obj/
+**/Logs/
+**/MemoryCaptures/
+**/Build/
+**/Builds/
+**/UserSettings/
+
+# OS/IDE files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs

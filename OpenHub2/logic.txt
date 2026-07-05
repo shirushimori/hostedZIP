@@ -1,0 +1,7 @@
+﻿=== Service Logic ===
+
+1. Load JSON → ServiceData
+2. fetch_version() → GET ServiceOnlineVersionURL → string
+3. download_zip() → GET ServiceDownloadZipSourceURL → bytes
+4. extract_zip(bytes) → unzip to ServiceDefaultExtractPath
+5. run_tool(name) → exec root/tools[].path

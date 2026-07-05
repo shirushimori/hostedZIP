@@ -1,0 +1,39 @@
+{
+  "ServiceName": "Subh X Cheat",
+  "ServiceVersion": "1.0.0",
+  "ServiceDescription": "Best Panel.",
+  "ServiceOnlineVersionURL": "https://raw.githubusercontent.com/shirushimori/hostedZIP/refs/heads/main/data/subh/version.txt",
+  "ServiceDownloadZipSourceURL": "https://cdn.discordapp.com/attachments/1518929015216279626/1518931254001799268/Loader.dist.zip?ex=6a4adfb7&is=6a498e37&hm=0f250b8725c5b62e1a636bfc58cd7eaeeebde9668c747c04540fb0c0e410a0a1&",
+  "ServiceDefaultExtractPath": "",
+  "ServiceOSSupport": {
+    "value": ["Windows"],
+    "tooltip": "Supported operating systems."
+  },
+  "ServiceLogo": {
+    "value": "https://i.ibb.co/G4n5tLL1/logo.webp",
+    "tooltip": "Service logo."
+  },
+  "ServiceBanner": {
+    "value": "https://i.ibb.co/JFF0JGmd/banner.webp",
+    "tooltip": "Header banner image."
+  },
+  "ServiceScreenshotsVideosURLs": {
+    "value": [
+      "https://i.ibb.co/35Tx8Vq3/Chat-GPT-Image-May-22-2026-11-32-41-PM.webp",
+      "https://i.ibb.co/rGxLsVDs/Chat-GPT-Image-May-22-2026-11-41-57-PM.webp",
+      "https://i.ibb.co/0pcCzqL5/Chat-GPT-Image-May-29-2026-11-01-59-PM.webp"
+    ],
+    "tooltip": "Screenshots or demo videos."
+  },
+  "ServiceUserType": {
+    "value": "Panel",
+    "tooltip": "Intended user group."
+  },
+  "Tools": [
+    {
+      "displayName": "SUPER CLEANER",
+      "path": "Loader.dist/SUPER CLEANER.bat",
+      "tooltip": "Cleaner utility tool."
+    }
+  ]
+}

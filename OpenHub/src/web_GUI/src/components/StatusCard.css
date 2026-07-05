@@ -1,0 +1,18 @@
+.status-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.status-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--text3);
+}
+
+.status-value {
+  font-size: 18px;
+  font-weight: 700;
+  transition: color 0.3s;
+}
