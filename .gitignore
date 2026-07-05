@@ -13,10 +13,24 @@ Cargo.lock
 .oxlintrc.json
 
 # Large Compiled Binaries / Releases
-/Releases/
 *.zip
 *.exe
 *.dll
+!/Releases/
+!/Releases/**
+
+# Exclude WebView2/Edge runtime user profiles & caches
+**/EBWebView/
+**/openhub.exe.WebView2/
+**/GPUPersistentCache/
+**/ShaderCache/
+**/GrShaderCache/
+**/commerce_subscription_db/
+**/discount_infos_db/
+**/discounts_db/
+**/optimization_guide_hint_cache_store/
+**/parcel_tracking_db/
+**/shared_proto_db/
 
 # IDEs & System
 .vscode/
