@@ -1,0 +1,8 @@
+/target/
+/build/
+*.exe
+*.dll
+*.lnk
+*.bat
+icon.jpg
+uninstall.bat
