@@ -1,0 +1,21 @@
+{
+  "tools": [
+    {
+      "id": "chams-freefire",
+      "name": "Chams Menu Free Fire",
+      "description": "Disable Real Time Protection And Temper Protection First",
+      "url": "https://github.com/shirushimori/hostedZIP/releases/download/v1.0.2/Chams.exe",
+      "category": "game cheat",
+      "version": "1.0.2",
+      "size": "20 MB"
+    },{
+      "id": "cheat-freefire",
+      "name": "Bypass Free Fire",
+      "description": "Not Avilable YET... Disable Real Time Protection And Temper Protection First",
+      "url": "https://github.com/shirushimori/hostedZIP/bypass",
+      "category": "game cheat",
+      "version": "0.0.0",
+      "size": "N/A"
+    }
+  ]
+}
